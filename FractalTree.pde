@@ -36,3 +36,6 @@ public void drawBranches(int x,int y, double branchLength, double angle, int ran
     drawBranches(endX2, endY2, branchLength, angle2, random1, random2);
   }
 }
+public void mouseClicked(){
+  redraw();
+}
